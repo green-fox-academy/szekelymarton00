@@ -1,0 +1,77 @@
+
+/* Velox */
+.square-box{
+    position: relative;
+    width: 25%;
+    height: 125px;
+    overflow: hidden;
+    background: rgb(14,145,161);
+    border-style: solid;
+    border-color: rgb(125,206,148);
+}
+.square-box:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+
+}
+.square-content{
+    position:  fixed;
+    top: -35px;
+    left: 15px;
+    bottom: 0;
+    right: 0;
+    color: darkgreen;
+    font-size: 36px;
+}
+/*Zerda*/
+.square-box1{
+    position: relative;
+    width: 25%;
+    top: 50px;
+    height: 125px;    
+    overflow: hidden;
+    background: rgb(14,145,161);
+    border-style: solid;
+    border-color: rgb(125,206,148);
+
+}
+.square-box1:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.square-content1{
+    position:  fixed;
+    top: 150px;
+    left: 15px;
+    bottom: 0;
+    right: 0;
+    color: darkgreen;
+    font-size: 36px;
+}
+/*Lagopus*/
+.square-box2{
+    position: relative;
+    width: 25%;
+    top: 100px;
+    height: 125px;    
+    overflow: hidden;
+    background: rgb(14,145,161);
+    border-style: solid;
+    border-color: rgb(125,206,148);
+
+}
+.square-box2:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.square-content2{
+    position:  fixed;
+    top: 330px;
+    left: 15px;
+    bottom: 0;
+    right: 0;
+    color: darkgreen;
+    font-size: 36px;
