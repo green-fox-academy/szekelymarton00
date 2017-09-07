@@ -1,0 +1,28 @@
+h1 {
+    color: orange;
+}
+h2 {
+    color: purple;
+}
+h3 {
+    color: purple;
+}
+
+p {
+    width: 50%;
+}
+
+/* ol > ::first-line { */
+    /* color: pink; */
+    /* text-decoration: underline; */
+/* } */
+    
+ol > :last-child {
+    color: black;
+    text-decoration: underline;
+}    
+ul > :nth-child(5) {
+    color: pink;
+    text-decoration: underline;
+    
+}

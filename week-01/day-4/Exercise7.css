@@ -1,0 +1,23 @@
+.big {
+    color: blue;
+}
+div div {
+    border-style: solid;
+    border-color: green;
+    border-width: 1px;
+    width: 10em;
+
+}
+
+div {
+    font-weight: bold;
+}
+
+div > div {
+    border: 16px green color;
+}
+
+p {
+    background-color: yellow;
+    width: 10em;
+}

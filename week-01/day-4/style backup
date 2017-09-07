@@ -1,0 +1,108 @@
+.header {
+    background-color:#333333;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+.header a {
+    float: right;
+    display: block;
+    color: #ff0099;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: underline;
+    }
+p {
+    font-size: 16px;
+    position: fixed;
+    top: 400px;
+    left: 10%;
+}
+p1 {
+    font-size: 32px;
+    position: fixed;
+    top: 550px;
+}
+p2 {
+    font-size: 16px;
+    position: fixed;
+    top: 600px;
+}
+p3 {
+    font-size: 32px;
+    position: fixed;
+    top: 650px; 
+}
+p4 {
+    font-size: 16px;
+    position: fixed;
+    top: 700px;
+}    
+p5 {
+    font-size: 32px;
+    position: fixed;
+    top: 750px;
+}
+p6 {
+    font-size: 16px;
+    position: fixed;
+    top: 800px;
+}
+p7 {
+    font-size: 32px;
+    position: fixed;
+    top: 850px;
+}
+p8 {
+    font-size: 16px;
+    position: fixed;
+    top: 900px;
+}
+p9 {
+    font-size: 32px;
+    position: fixed;
+    top: 950px;
+}
+p10 {
+    font-size: 16px;
+    position: fixed;
+    top: 1000px;
+}
+p11 {
+    font-size: 32px;
+    position: fixed;
+    top: 1050px; 
+}
+p12 {
+    font-size: 16px;
+    position: fixed;
+    top: 1100px;
+}
+h1 {
+    position: fixed;
+    top: 300px;
+    
+}
+h2 {
+    position: fixed;
+    top: 350px;
+    color: #ff0099;
+}
+
+h3 {
+    position: fixed;
+    font-size: 30px;
+    top: 450px;
+    color: #ff0099;
+    left: 45%;
+}
+
+.main {
+    margin-top: 30px;
+
+}
+body {
+    overflow: scroll;
+}

@@ -1,0 +1,47 @@
+.mainbluebackthing {
+    width: 300px;
+	height: 485px;
+	background: rgb(66, 133, 244);
+}
+.first {
+    width: 280px;
+    height: 110px;
+    background: rgb(213, 118, 118);
+    top: 30px;
+    position: fixed;
+    margin-left: 10px;
+	
+}
+.second {
+    width: 280px;
+    height: 110px;
+    background: rgb(242, 240, 98);
+    top: 140px;
+    position: fixed;
+	
+}
+.third {
+    width: 280px;
+    height: 110px;
+    background: rgb(169, 230, 230);
+    top: 250px;
+    position: fixed;
+	
+}
+.fourth {
+    width: 280px;
+    height: 110px;
+    background: rgb(190, 146, 228);
+    top: 360px;
+    position: fixed;
+	
+}
+p {
+    color: white;
+    text-align: center;
+    top: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 36px;
+
+}

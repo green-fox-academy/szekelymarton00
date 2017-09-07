@@ -1,0 +1,38 @@
+.mainbluebackthing1 {
+    width: 300px;
+	height: 200px;
+    background: rgb(80, 87, 241);
+}
+.mainbluebackthing2 {
+    width: 300px;
+    height: 200px;
+    top: 220px;
+    position: fixed;
+    background: rgb(80, 87, 241);
+}
+.north {
+    width: 280px;
+    height: 180px;
+    top: 16px;
+    background: rgb(213, 118, 118);
+    position: fixed;
+    right: 728px;
+}
+.south {
+    width: 280px;
+    height: 180px;
+    top: 230px;
+    background: rgb(169, 230, 230);
+    position: fixed;
+    right: 728px;
+}
+p {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    top: 30px;
+    font-weight: lighter;
+    line-height: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
