@@ -1,0 +1,141 @@
+
+/* STRUCTURE BOXES */
+html {
+    margin: 30px;
+    margin-top: 0.1em;
+    background: white;
+}
+body {
+    margin: 100px;
+    background: rgb(220,214,205);
+    height:1000px;
+
+}
+
+header {
+    font-size: 24px;
+    font-weight: lighter;
+    color: rgb(74,67,96);
+    padding: 10px;
+}
+
+
+#topbox {
+    width: 700px;
+    height: 50px;
+    background:  rgb(220,214,205);;
+    overflow: hidden;
+    margin: 2em;
+    margin-top: 1px;
+}
+
+#topbox #topbox2 {
+    position: relative;
+    width: 670px;
+    height: 25px;
+    background:  rgb(220,214,205);;
+    margin: 0.9em;
+}
+#bigred{
+    width: 700px;
+    height: 500px;
+    background:  rgb(220,214,205);;
+    margin: 2em;
+    margin-top: 1px;
+    position: relative;
+
+}
+#leftyellow {
+    position: absolute;
+    width: 310px;
+    height: 470px;
+    background: yel rgb(220,214,205);low;
+    margin-top: -32.5em;
+    margin-left: 55px;
+    
+}
+#rightyellow {
+    position: absolute;
+    width: 310px;
+    height: 470px;
+    background:  rgb(220,214,205);;
+    float: left;
+    margin-left: 400px;
+    margin-top: -32.5em;
+    
+}
+.bottomred {
+    position: absolute;
+    width: 700px;
+    height: 235px;
+    background:  rgb(220,214,205);;
+    margin-left: 30px;
+    margin: 2em;
+    
+}
+.bottomyellow {
+    position: absolute;
+    width: 670px;
+    height: 205px;
+    background:  rgb(220,214,205);;
+    margin-left: 30px;
+    margin: 3em;
+    
+}
+/* FORM FORM FORM FORM */
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border-radius: 8px;
+  }
+  input[type = "text"]:valid {
+    border-radius: 4px;
+    width: 200px;
+    height: 25px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+}
+input[type = "url"]:valid {
+    border-radius: 4px;
+    width: 200px;
+    height: 25px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+}
+input[type = "email"]:valid {
+    border-radius: 4px;
+    width: 200px;
+    height: 25px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    border-radius: 4px;  
+    
+
+}
+
+input[id="date"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;  
+    width: 75px;  
+}
+input[value="Nő"] {
+    padding: 10em;
+
+}
+textarea {
+    size: 5em;
+}
+/* input[name="mark"] {
+    display: block;
+    padding: 10px;
+}
+input[name="mark223"] {
+    display: block;
+    text-align: right 10px;
+    
+} */

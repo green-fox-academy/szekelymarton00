@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <link href = "Checkboxes.css" rel = "stylesheet" type = "text/css">
+        <title>Checkboxes</title>
+    </head>
+        <body>
+            <header>Profil</header>
+                    <div id="topbox">
+                    <div id="topbox2"></div>
+                    </div>
+                    <div id="bigred">
+                        </div>
+                    <div id="leftyellow">
+                        <h1>Személyes adatok</h1>
+                            <form action="/my-handling-form-page" method="post">
+                                <div>
+                                    <label for="name">Név</label>
+                                    <input type="text" id="name" name="user_name">
+                                </div>
+                                <div>
+                                        <label for="date">Születési éved</label>
+                                        <input type="date" id="date" name="born">
+                                    </div>
+                                <form action="/action_page.php">
+                                        <input type="radio" name="nem" value="Férfi">nő
+                                        <input type="radio" name="nem" value="Nő">férfi
+                                </form>
+                                
+<!--  DON'T LOOK HERE ITS MESSY!!!!-->
+<form action="/action_page.php">
+<input type="checkbox" name="mark" value="adidas">Adidas           <input type="checkbox" name="mark2" value="Opel">Opel
+<input type="checkbox" name="mark" value="apple">Apple            <input type="checkbox" name="mark2" value="Ray-Ban">Ray-Ban
+<input type="checkbox" name="mark" value="Coca-Cola">Coca-Cola        <input type="checkbox" name="mark2" value="Starbucks">Starbucks
+<input type="checkbox" name="mark" value="Mazda">Mazda            <input type="checkbox" name="mark2" value="Tesla">Tesla
+<input type="checkbox" name="mark" value="Nike">Nike             <input type="checkbox" name="mark2" value="Yahoo">Yahoo
+</form>
+<!--  YOU MAY CONTINUE LOOKING-->
+                                <div id="box"></div>  
+                            </form>
+                    </div>
+                    <div id="rightyellow">
+                        <h1>Kapcsolatok</h1>
+                            <form action="/my-handling-form-page" method="post">
+                                <div>
+                                    <label for="number">Telefonszám</label>
+                                    <input type="text" id="number" name="number" placeholder="+36 -- --- ----">
+                                </div>
+                                <div>
+                                    <label for="mail">E-mail cím</label>
+                                    <input type="email" id="mail" name="user_mail" placeholder="nev@domain.hu">
+                                </div>
+                                <div>
+                                        <label for="facebook">Facebook profilod</label>
+                                        <input type="url" id="facebook" name="facebook" placeholder="http://facebook.com/...">
+                                    </div>
+                                    <div>
+                                            <label for="twitter">Twitter profilod</label>
+                                            <input type="url" id="twitter" name="twitter" placeholder="http://twitter.com/...">
+                                </div>
+                                <div>
+                                        <label for="mail">Milyen házban laksz?</label>
+                                        <input type="search" id="mail" name="user_mail">
+                                    </div>
+                                <div id="box"></div>  
+                            </form>
+
+
+
+                    </div>
+                    <div class="bottomred">
+                            <label for="msg">Bemutatkozás</label>
+                    </div>
+                    <div class="bottomyellow">
+                            <div>
+                                    <textarea id="msg" name="user_message" placeholder="Írj pár mondatot magadról!"></textarea>
+                                </div>
+                    </div>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- <form action="/my-handling-form-page" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+                <div>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+                <div id="box"></div>  
+            </form> -->
+
+        </body>
+</html>
