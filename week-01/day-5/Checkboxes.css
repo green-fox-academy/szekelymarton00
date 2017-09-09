@@ -141,12 +141,14 @@ button[type = "button"]:valid{
 /* CHECKBOXES */
 input[type = "checkbox"] {
     display:block;
-    visibility: hidden;
+    position: absolute;
+
+    /* visibility: hidden; */
 }
 
 label span
 {
-    background-color: grey;
+    /* background-color: grey; */
     height: 15px;
     width: 15px;
     display:inline-block;
@@ -155,30 +157,30 @@ label span
 }
 input[type = "checkbox"]:checked + label span
 {
-    background-color: blue;
+    /* background-color: blue; */
     height: 15px;
     width: 15px;
     display:inline-block;
     padding: 0 0 0 0px;
 }
 #secondbrand {
-    position: relative;
+    position: absolute;
     left: 10em;
-    bottom: 11.5em;
+    bottom: 10em;
 
 }
-input[type="checkbox"] {
+/* input[type="checkbox"] {
     -webkit-appearance: checkbox !important;
     -moz-appearance: checkbox !important;
     -ms-appearance: checkbox !important;
     -o-appearance: checkbox !important;
     appearance: checkbox !important;
-}
+} */
 
 button[type = "mentes"] {
     position: relative;
     top: 3em;
-    right: 10em;
+    right: 20em;
     font-size: 20px;
     border-radius: 4px;
     background-color: rgb(85,153,255);
@@ -188,7 +190,7 @@ button[type = "mentes"] {
 button[type = "urlap"] {
     position: relative;
     top: 3em;
-    left: 10.5em;
+    left: 5em;
     font-size: 20px;
     border-radius: 4px;
 }
@@ -199,6 +201,6 @@ h2 {
     position: absolute;
     font-size: 14px;
     color: rgb(163,160,156);	
-    top: 30em;
+    top: 23em;
     left: 1em;
 }
