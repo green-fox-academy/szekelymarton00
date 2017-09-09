@@ -1,15 +1,15 @@
 
 /* STRUCTURE BOXES */
 html {
-    margin: 30px;
-    margin-top: 0.1em;
+    /* margin: 30px; */
+    /* margin-top: 0.1em; */
     background: white;
 }
 body {
-    margin: 100px;
+    /* margin: 1000px; */
     background: rgb(220,214,205);
     height:1000px;
-
+    margin: auto 29em;
 }
 
 header {
@@ -93,21 +93,18 @@ form {
     border-radius: 4px;
     width: 200px;
     height: 25px;
-    padding: 12px 20px;
     border: 1px solid #ccc;
 }
 input[type = "url"]:valid {
     border-radius: 4px;
     width: 200px;
     height: 25px;
-    padding: 12px 20px;
     border: 1px solid #ccc;
 }
 input[type = "email"]:valid {
     border-radius: 4px;
     width: 200px;
     height: 25px;
-    padding: 12px 20px;
     border: 1px solid #ccc;
 }
 
@@ -127,15 +124,52 @@ input[value="Nő"] {
     padding: 10em;
 
 }
-textarea {
-    size: 5em;
-}
-/* input[name="mark"] {
-    display: block;
-    padding: 10px;
-}
-input[name="mark223"] {
-    display: block;
-    text-align: right 10px;
+h1 {
+    background-color: rgb(147,140,150);
+    color: white;
+    font-weight: lighter;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    padding: 5px;
+    font-size: 24px;
     
-} */
+}
+button[type = "button"]:valid{
+    border: 2px solid
+}
+
+/* CHECKBOXES */
+input[type=checkbox] {
+    display:block;
+    visibility: hidden;
+}
+
+label span
+{
+    background-color: grey;
+    height: 15px;
+    width: 15px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+    margin-right: 5px
+}
+input[type=checkbox]:checked + label span
+{
+    background-color: blue;
+    height: 15px;
+    width: 15px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
+#secondbrand {
+    position: relative;
+    left: 10em;
+    bottom: 11.5em;
+
+}
+input[type="checkbox"] {
+    -webkit-appearance: checkbox !important;
+    -moz-appearance: checkbox !important;
+    -ms-appearance: checkbox !important;
+    -o-appearance: checkbox !important;
+    appearance: checkbox !important;
+}
