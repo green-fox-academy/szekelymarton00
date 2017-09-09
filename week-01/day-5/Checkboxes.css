@@ -195,3 +195,10 @@ button[type = "urlap"] {
 button[type = "file"] {
     font-size: 14px;
 }
+h2 {
+    position: absolute;
+    font-size: 14px;
+    color: rgb(163,160,156);	
+    top: 30em;
+    left: 1em;
+}
