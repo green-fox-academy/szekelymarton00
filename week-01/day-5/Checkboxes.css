@@ -16,7 +16,8 @@ header {
     font-size: 24px;
     font-weight: lighter;
     color: rgb(74,67,96);
-    padding: 10px;
+    position: absolute;
+    bottom: 19em;
 }
 
 
@@ -89,7 +90,7 @@ form {
     padding: 1em;
     border-radius: 8px;
   }
-  input[type = "text"]:valid {
+input[type = "text"]:valid {
     border-radius: 4px;
     width: 200px;
     height: 25px;
