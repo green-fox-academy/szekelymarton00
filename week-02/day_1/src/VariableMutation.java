@@ -57,9 +57,9 @@ public class VariableMutation {
         System.out.println(reallytired);
         ////////////////////////////////////////////////////////////////
 
-        String k = new String[] {"Apple", "Apple", "Apple", "Apple"};
+      //  String k = new String[] {"Apple", "Apple", "Apple", "Apple"};
 
-        System.out.println(k);
+       // System.out.println(k);
 
     }
 
