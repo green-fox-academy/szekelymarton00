@@ -4,9 +4,9 @@ public class CodingHours {
         int Semester = 17;
         int Days = Semester * 5;
         double WorkHours = 52;
-        System.out.println(DailyCoding * Days);
+            System.out.println(DailyCoding * Days);
         //System.out.println((Semester * WorkHours) / (DailyCoding * Days));
-        System.out.println((DailyCoding * Days) / (Semester * WorkHours) *100);
+            System.out.println((DailyCoding * Days) / (Semester * WorkHours) *100);
 
     }
 }

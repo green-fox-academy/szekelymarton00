@@ -7,7 +7,7 @@ public class DefineBasicInfo {
 
 
 
-        System.out.println(myName + newLine + myAge + newLine + myHeight + newLine + "Am I married? ");
+            System.out.println(myName + newLine + myAge + newLine + myHeight + newLine + "Am I married? ");
         boolean married = false;
         if (married == false) {
             System.out.println("No");
