@@ -7,13 +7,13 @@ public class Cuboid {
 
             System.out.println("Please enter the Width: ");
         double Width = input.nextInt();
-        while (Width > 0 == true) {
-            if (Width > 0 == false) {
+     //   while (Width > 0 == true) {
+     //       if (Width > 0 == false) {
                 System.out.println("The Number has to be greater than 0 please re-enter below");
-                break;
+    //            break;
 
-            }
-        }
+
+
 
 
             System.out.println("Please enter the Height: ");

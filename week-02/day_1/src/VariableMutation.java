@@ -24,8 +24,7 @@ public class VariableMutation {
         int f1 = 123;
         int f2 = 345;
 
-        boolean bigger = true;
-        {
+        boolean bigger = true; {
             if (f1 > f2) {
                 System.out.println("F1 is bigger than F2");
             } else System.out.println("F1 is smaller than F2");

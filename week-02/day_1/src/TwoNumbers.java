@@ -6,7 +6,7 @@ public class TwoNumbers {
             System.out.println(b - a);
             System.out.println(b * a);
             System.out.println(b / a);
-        int c = Integer.parseInt("22");
+            int c = Integer.parseInt("22");
             System.out.println(c / a);
             System.out.println(b % a);
     }
