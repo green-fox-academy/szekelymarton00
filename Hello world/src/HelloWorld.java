@@ -1,10 +1,9 @@
 import java.util.Scanner;
 
-public class HelloWorld
-{
+public class HelloWorld {
 
-    public static void  main(String[] args)
-    {
+    public static void  main(String[] args) {
+
         // Variable type name ( = value);
 
         int myNumber = 100;
@@ -62,6 +61,7 @@ public class HelloWorld
 
         // AND                      &&
         // OR                       ||
+        // NOT                      !
 
         boolean b = (2 == 2);
         System.out.println(b);
@@ -92,11 +92,32 @@ public class HelloWorld
             System.out.println("Condition is false because of ELSE");
 
         }
-        else if (a && b) {
-        System.out.println("a AND b are true");
-    }
+
+        //else if(a || b) {
+        // System.out.println("a AND b are true");
+        //}
+
+        // WHILE - reaping IF statement LOOPS
 
 
+        int m = 0;
+        while (m < 100) {
+            System.out.println(m);
+            m = m + 1;
+        // same as m++;
+
+            System.out.println("Loop finished");
+        }
+        // same as the one before
+        for (int p = 0; p < 100; p++)
+            System.out.println(p);
+        // DO while LOOP code is run then the condition is checked
+
+        int u = 10;
+
+        do {
+            System.out.println("Hello World");
+        } while (u < 10);
 
         }
 
