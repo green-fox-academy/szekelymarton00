@@ -9,9 +9,6 @@ public class SolarSystem{
         planetList.set(5, "Saturn" );
         planetList.set(6, "Uranus" );
         planetList.add("Neptune" );
-
-
-
-        System.out.println(planetList);
+            System.out.println(planetList);
     }
 }

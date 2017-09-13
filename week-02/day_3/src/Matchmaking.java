@@ -10,11 +10,12 @@ public class Matchmaking{
 
         int length = girls.size();
         if (length != boys.size()) {
-        }
-        ArrayList<String> order = new ArrayList<String>(length);
-        for (int i = 0; i < length; i++) {
-            order.add(girls.get(i) + " " + boys.get(i));
-        }
+
+            ArrayList<String> order = new ArrayList<String>(length);
+            for (int i = 0; i < length; i++) {
+                order.add(girls.get(i) + " " + boys.get(i));
+            }
             System.out.println(order);
+        }
     }
 }

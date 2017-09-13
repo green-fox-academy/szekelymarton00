@@ -37,21 +37,5 @@ public class Calculator {
             if (prompt == '/'){
                 System.out.print(first / second);
             }
-
-
-
-
-
-
-//        Scanner operation = new Scanner(System.in);
-//        String  prompt = operation.next();
-//        String  multiply = UserInput * UserInput2;
-//        if (prompt = "*")
-//        double TheNumber = UserInput.nextInt();
-//        double TheSecondNumber = UserInput.nextInt();
-
-
-
-
     }
 }

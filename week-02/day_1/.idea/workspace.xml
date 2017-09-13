@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd1e96f8-cf2d-4691-a627-5afff199d33d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DrawChessTable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DrawSquare.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DrawTriangle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FizzBuzz.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GuessTheNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../day_3/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/day_1/BMI.class" afterPath="$PROJECT_DIR$/out/production/day_1/BMI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Java/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day_3/out/production/day_3/AppendLetter.class" afterPath="$PROJECT_DIR$/../day_3/out/production/day_3/AppendLetter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day_3/out/production/day_3/Calculator.class" afterPath="$PROJECT_DIR$/../day_3/out/production/day_3/Calculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day_3/out/production/day_3/HeWillNever.class" afterPath="$PROJECT_DIR$/../day_3/out/production/day_3/HeWillNever.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day_3/out/production/day_3/Matchmaking.class" afterPath="$PROJECT_DIR$/../day_3/out/production/day_3/Matchmaking.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day_3/out/production/day_3/SolarSystem.class" afterPath="$PROJECT_DIR$/../day_3/out/production/day_3/SolarSystem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day_3/out/production/day_3/TakesLonger.class" afterPath="$PROJECT_DIR$/../day_3/out/production/day_3/TakesLonger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day_3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../day_3/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day_3/src/AppendLetter.java" afterPath="$PROJECT_DIR$/../day_3/src/AppendLetter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day_3/src/Calculator.java" afterPath="$PROJECT_DIR$/../day_3/src/Calculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day_3/src/ElementFinder.java" afterPath="$PROJECT_DIR$/../day_3/src/ElementFinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day_3/src/HeWillNever.java" afterPath="$PROJECT_DIR$/../day_3/src/HeWillNever.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day_3/src/Matchmaking.java" afterPath="$PROJECT_DIR$/../day_3/src/Matchmaking.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day_3/src/SolarSystem.java" afterPath="$PROJECT_DIR$/../day_3/src/SolarSystem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../day_3/src/TakesLonger.java" afterPath="$PROJECT_DIR$/../day_3/src/TakesLonger.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -372,12 +376,12 @@
       <updated>1505128072268</updated>
       <workItem from="1505128076678" duration="16871000" />
       <workItem from="1505245126467" duration="235000" />
-      <workItem from="1505311304988" duration="1539000" />
+      <workItem from="1505311304988" duration="2027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18645000" />
+    <option name="totallyTimeSpent" value="19133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
