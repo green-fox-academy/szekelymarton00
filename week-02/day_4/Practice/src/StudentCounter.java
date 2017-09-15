@@ -45,7 +45,8 @@ public class StudentCounter {
     row5.put("candies", 2);
     map.add(row5);
 
-    String can = map.get("candies");
+
+    System.out.println(row0.get("candies"));
   }
 }
     // Display the following things:
