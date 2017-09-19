@@ -1,0 +1,23 @@
+.thebody {
+    background-color: red;
+    position: absolute;
+    left: 12.5%;
+    width: 75%;
+    height: 100%;
+
+}
+.thebodycontent {
+    position: relative;
+    background-color: green;
+    width: 50%;
+    height: 50%;
+    margin: 1em;
+
+}
+.thebodycontent2 {
+    position: absolute;
+    background-color: green;
+    width: 93%;
+    height: 75%;
+    left: 40em;
+}

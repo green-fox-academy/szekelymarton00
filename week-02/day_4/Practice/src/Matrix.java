@@ -8,8 +8,6 @@
 //
 // - Print this two dimensional array to the output
 
-import java.util.ArrayList;
-import java.util.Arrays;
 
 
 public class Matrix {
