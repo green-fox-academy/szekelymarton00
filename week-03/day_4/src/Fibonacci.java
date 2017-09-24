@@ -8,8 +8,16 @@ public class Fibonacci {
     // and so on. Define a recursive fibonacci(n) method that returns the nth
     // fibonacci number, with n=0 representing the start of the sequence.
 
+    System.out.println(fibonacci(10));
 
-    
+
+
   }
 
+  static int fibonacci(int n) {
+
+    return (n <= 1) ? n : fibonacci(n - 1) + fibonacci(n - 2);
+  }
 }
+
+

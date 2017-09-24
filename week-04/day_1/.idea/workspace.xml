@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3844728-d854-4a7d-987b-b6a928a90d68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week-03/day_5/src/PM.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week-03/day_5/src/veryverywaylouder.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week-03/day_5/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week-03/day_5/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week-03/day_5/src/Circle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week-03/day_5/src/Practice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week-03/day_5/src/Practice2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week-03/day_5/src/Triangles.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day_1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Forest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../week-03/day_1/pallida-basic-exam-trial" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/day_2/out/production/day_2/ReversedOrder.class" afterPath="$PROJECT_DIR$/../../week-03/day_2/out/production/day_2/ReversedOrder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/day_1/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../../week-03/day_1/.idea/vcs.xml" />
@@ -33,6 +18,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/day_4/src/DrawThis.java" afterPath="$PROJECT_DIR$/../../week-03/day_4/src/DrawThis.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/day_4/src/Fibonacci.java" afterPath="$PROJECT_DIR$/../../week-03/day_4/src/Fibonacci.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/day_4/src/squareFractal.java" afterPath="$PROJECT_DIR$/../../week-03/day_4/src/squareFractal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/day_5/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../week-03/day_5/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/day_5/src/Circle.java" afterPath="$PROJECT_DIR$/../../week-03/day_5/src/Circle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/day_5/src/Practice.java" afterPath="$PROJECT_DIR$/../../week-03/day_5/src/Practice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/day_5/src/Practice2.java" afterPath="$PROJECT_DIR$/../../week-03/day_5/src/Practice2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/day_5/src/Triangles.java" afterPath="$PROJECT_DIR$/../../week-03/day_5/src/Triangles.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,6 +85,11 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1375" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -262,15 +257,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506246977385</updated>
-      <workItem from="1506246981591" duration="1550000" />
+      <workItem from="1506246981591" duration="1630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1550000" />
+    <option name="totallyTimeSpent" value="1630000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
+    <frame x="0" y="22" width="1375" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -286,7 +281,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30545455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Samebug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
