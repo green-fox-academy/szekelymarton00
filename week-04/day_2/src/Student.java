@@ -1,20 +1,19 @@
 public class Student {
+
   String name;
   int age;
   String gender;
-  String previousOrganization = "The School of Life";
+  String previousOrganization;
   int skippedDays;
 
-  public Student(){
-    Student Jane;
-    Jane = new Student();
-    Jane.name = "Jane";
-    Jane.age = 30;
-    Jane.gender = "female";
+  public Student(String name, int age, String gender, String previousOrganization) {
+
   }
 
   public void introduce() {
-    System.out.println("Hi I am " + name + " a " + age + " year old " + gender + "from " + previousOrganization + "who skipped" + skippedDays +  "days from the course already." );
+    System.out.println(
+        "Hi I am " + name + " a " + age + " year old " + gender + "from " + previousOrganization
+            + "who skipped" + skippedDays + "days from the course already.");
   }
 
   public void getGoal() {
@@ -22,7 +21,7 @@ public class Student {
   }
 
 
-  public void skipDays(int numberOfDays){
+  public void skipDays(int numberOfDays) {
     numberOfDays++;
   }
 
