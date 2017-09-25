@@ -26,7 +26,7 @@ public class Forest {
     szilva.type = "szilva";
     szilva.leafColor = "brownish";
     szilva.age = 50;
-    szilva.sex = "I don' know";
+    szilva.sex = "I don't know";
 
     szilva.Tree1();
 
