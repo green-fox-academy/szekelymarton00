@@ -20,10 +20,6 @@ public class BlogPost {
   String publicationDate;
 
 
-  public BlogPost() {
-
-  }
-
   public static void main(String[] args) {
 
     BlogPost firstPost;
