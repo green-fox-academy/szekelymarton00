@@ -4,9 +4,24 @@ public class FleetOfThings {
     Fleet fleet = new Fleet();
     fleet.add(new Thing("Get Milk"));
     fleet.add(new Thing("Remove the obstacles"));
-    Completed
 
-    fleetComplete.
+    Thing standUp = new Thing("Stand up");
+    fleet.add(standUp);
+    standUp.complete();
+
+    Thing eatLunch = new Thing("Eat lunch");
+    fleet.add(eatLunch);
+    eatLunch.complete();
+
+
+
+
+
+
+
+
+
+
     // Create a fleet of things to have this output:
     // 1. [ ] Get milk
     // 2. [ ] Remove the obstacles

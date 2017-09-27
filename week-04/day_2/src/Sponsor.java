@@ -1,20 +1,27 @@
-public class Sponsor {
+public class Sponsor extends Person {
 
-  String name;
-  int age;
-  String gender;
+
   String company;
-  int hiredStudents = 0;
+  int hiredStudents;
+
+  public Sponsor(){
+
+  }
 
 
   public Sponsor(String name, int age, String gender, String company) {
+    this.name = "Jane";
+    this.age = 30;
+    this.gender = "female";
+    this.company = "Google";
+    this.hiredStudents = 0;
 
   }
 
   public void introduce() {
     System.out.println(
-        "Hi, I'm" + name + ", a " + age + "year old " + gender + "who represents" + company
-            + "and hired" + hiredStudents + "students so far.");
+        "Hi, I'm" + name + ", a " + age + " year old " + gender + " who represents " + company
+            + " and hired " + hiredStudents + " students so far.");
   }
 
   public void getGoal() {

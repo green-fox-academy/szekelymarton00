@@ -57,16 +57,16 @@ public class Circle {
     while (true) {
       if (changeColor && changeSMTH) {
         h -= 0.1f;
-//        e += 2;
-//        r += 2;
+        e += 2;
+        r += 2;
         if (h > 1 && e > 1 && r > 1) {
           changeColor = !changeColor;
           changeSMTH = !changeSMTH;
         }
       } else {
         h += 0.1f;
-//        e -= 2;
-//        r -= 2;
+        e -= 2;
+        r -= 2;
         if (h < 1 && e < 1 && r < 1) {
           changeColor = !changeColor;
           changeSMTH = !changeSMTH;

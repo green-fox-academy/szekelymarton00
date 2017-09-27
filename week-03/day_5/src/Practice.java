@@ -11,9 +11,11 @@ public class Practice {
 
   private static String NameFromEmail() {
     String email = "elek.viz@exam.com";
-    String[] userName = email.split("\\.");
+    for(String temp:email{
 
-    return  userName[0];
+    }
+
+    return  email;
   }
 
 }

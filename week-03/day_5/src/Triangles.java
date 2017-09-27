@@ -7,18 +7,22 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class Triangles {
 
   public static void mainDraw(Graphics graphics) {
-    int[] x = {0, WIDTH / 2, WIDTH};
-    int[] y = {0, HEIGHT, 0};
+
 
     graphics.setColor(Color.BLACK);
-    graphics.drawPolygon(x, y, 3);
+    draw(graphics, 6, 5,5, WIDTH - 10, (int) (Math.sqrt(3.0) * (WIDTH - 10) / 2));
 
-    graphics.setColor(Color.BLACK);
 
 
   }
 
-  static int draw(Graphics g, int x, int y, int size, int n) {
+  static int draw(Graphics g,int n, int x1, int y1, int width, int height) {
+
+    g.setColor(Color.BLACK);
+    g.drawLine(x1,y1,x2,y2);
+    g.drawLine();
+    g.drawLine();
+
 
     if (n == 0) {
       return 0;

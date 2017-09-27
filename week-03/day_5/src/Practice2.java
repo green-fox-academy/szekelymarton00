@@ -16,21 +16,15 @@ public class Practice2 {
 
   private static String urlsFromHandles(List<String> urls) {
 
-
-    urls[0] + urls[1]
-    newList.add("ghhandle2");
-
     int length = urls.size();
-    if (length != newList.size()) { // Too many names, or too many numbers FAIL
+    for (int i = 0; i < length; i++) {
+      String s = urls.get(i);
+      urls.add("https://github.com/greenfox-academy/");
+
 
     }
-    ArrayList<String> array3 = new ArrayList<String>(length);
-    array3.add("https://github.com/greenfox-academy/"); // Make a new list
-    for (int i = 0; i < length; i++) {                  // Loop through every name/phone number combo
-      array3.add(urls.get(i) + " " + newList.get(i));   // Concat the two, and add it
-    }
-
-    return null;
+    return urlsFromHandles(urls);
   }
+
 
 }

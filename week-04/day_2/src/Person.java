@@ -6,8 +6,14 @@ public class Person {
   int age;
   String gender;
 
-  public Person(String name, int age, String gender) {
+  public Person() {
 
+  }
+
+  public Person(String name, int age, String gender) {
+    this.name = "Jane";
+    this.age = 30;
+    this.gender = "female";
   }
 
 
@@ -36,7 +42,7 @@ public class Person {
     people.add(gandhi);
     Mentor mentor = new Mentor("Jane", 30, "female", "intermediate");
     people.add(mentor);
-    Sponsor sponsor = new Sponsor("Jane",30,"female","Google");
+    Sponsor sponsor = new Sponsor("Jane", 30, "female", "Google");
     Sponsor elon = new Sponsor("Elon Musk", 46, "male", "SpaceX");
 
     student.skipDays(3);
