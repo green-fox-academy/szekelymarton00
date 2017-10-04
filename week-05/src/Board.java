@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -9,39 +7,21 @@ public class Board extends JComponent implements KeyListener {
 
   int testBoxX;
   int testBoxY;
+  int tileWidth = 72;
+  int[][] matrix;
+  Hero hero;
+  Skeleton skeleton;
+
 
   public Board() {
+    skeleton = new Skeleton();
+    skeleton.posX = 144;
+    skeleton.posY = 144;
+    hero = new Hero();
     testBoxX = 0;
     testBoxY = 0;
 
-    // set the size of your draw board
-    setPreferredSize(new Dimension(720, 720));
-    setVisible(true);
-  }
-
-  @Override
-  public void paint(Graphics graphics) {
-
-    // here you have a 720x720 canvas
-    // you can create and draw an image using the class below e.g.
-
-    PositionedImage floor = new PositionedImage("floor.png", 0, 0);
-
-    for (int i = 0; i < 10; i++) {
-      floor.draw(graphics);
-
-      for (int j = 0; j < 10; j++) {
-        floor.posX += 72;
-        floor.draw(graphics);
-      }
-      floor.posX = 0;
-      floor.posY += 72;
-    }
-    PositionedImage hero = new PositionedImage("hero-down.png", testBoxX, testBoxY);
-    super.paint(graphics);
-    hero.draw(graphics);
-
-    final int[][] matrix = {
+    this.matrix = new int[][]{
         {0, 0, 0, 1, 0, 1, 0, 0, 0, 0},
         {0, 0, 0, 1, 0, 1, 0, 1, 1, 0},
         {0, 1, 1, 1, 0, 1, 0, 1, 1, 0},
@@ -52,37 +32,36 @@ public class Board extends JComponent implements KeyListener {
         {0, 0, 0, 0, 0, 1, 1, 0, 1, 0},
         {0, 1, 1, 1, 0, 0, 0, 0, 1, 0},
         {0, 0, 0, 1, 0, 1, 1, 0, 0, 0}
-
-
     };
-    int tileWidth = 72;
-    int[][] wallposition = new int[10][10];
-    for (int i = 0; i < 10; i++) {
-      wallposition[i][0] = i * tileWidth;
-      for (int j = 0; j < 10; j++) {
-        wallposition[0][j] = j * tileWidth;
 
-      }
-    }
+    // set the size of your draw board
+    setPreferredSize(new Dimension(720, 720));
+    setVisible(true);
 
-    for (int t = 0; t < matrix.length; t++) {
+  }
 
-      for (int j = 0; j < matrix[t].length; j++) {
-        if (matrix[t][j] == 1) {
-          PositionedImage wall = new PositionedImage("wall.png", wallposition[0][j],
-              wallposition[t][0]);
+  @Override
+  public void paint(Graphics graphics) {
+    super.paint(graphics);
+
+    for (int i = 0; i < matrix.length; i++) {
+      for (int j = 0; j < matrix.length; j++) {
+        if (matrix[i][j] == 1) {
+          PositionedImage wall = new PositionedImage("wall.png", j * tileWidth,
+              i * tileWidth);
           wall.draw(graphics);
+        } else {
+          PositionedImage floor = new PositionedImage("floor.png", j * tileWidth,
+              i * tileWidth);
+          floor.draw(graphics);
         }
       }
-
-
     }
+
+    hero.draw(graphics);
+    skeleton.draw(graphics);
+
   }
-
-  public void drawPlayer() {
-
-  }
-
 
   // To be a KeyListener the class needs to have these 3 methods in it
   @Override
@@ -99,17 +78,31 @@ public class Board extends JComponent implements KeyListener {
   @Override
   public void keyReleased(KeyEvent e) {
     // When the up or down keys hit, we change the position of our box
-    if (e.getKeyCode() == KeyEvent.VK_UP) {
-      testBoxY -= 72;
-    } else if (e.getKeyCode() == KeyEvent.VK_DOWN) {
-      testBoxY += 72;
-    } else if (e.getKeyCode() == KeyEvent.VK_LEFT) {
-      testBoxX -= 72;
-    } else if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
-      testBoxX += 72;
-    }
-    // and redraw to have a new picture with the new coordinates
-    repaint();
 
+    if (e.getKeyCode() == KeyEvent.VK_UP && hero.posY > 0 && matrix[hero.posY / tileWidth - 1][hero.posX / tileWidth] != 1) {
+      hero.posY -= 72;
+      skeleton.posX += (int) (Math.random() * 72);
+      hero.drawHero("up");
+    } else if (e.getKeyCode() == KeyEvent.VK_DOWN && hero.posY < 720 - 72 && matrix[hero.posY / tileWidth + 1][hero.posX / tileWidth] != 1 ) {
+      hero.posY += 72;
+      skeleton.posX -= (int) (Math.random() * 72);
+      hero.drawHero("down");
+    } else if (e.getKeyCode() == KeyEvent.VK_LEFT && hero.posX > 0 && matrix[hero.posY / tileWidth][hero.posX / tileWidth - 1] != 1 ) {
+      hero.posX -= 72;
+      skeleton.posY += (int) (Math.random() * 72);
+      hero.drawHero("left");
+    } else if (e.getKeyCode() == KeyEvent.VK_RIGHT && hero.posX < 720 - 72 && matrix[hero.posY / tileWidth][hero.posX / tileWidth + 1] != 1 ) {
+      hero.posX += 72;
+      skeleton.posY -= (int) (Math.random() * 72);
+      hero.drawHero("right");
+    }
+    repaint();
   }
+
+
 }
+// and redraw to have a new picture with the new coordinates
+
+
+
+

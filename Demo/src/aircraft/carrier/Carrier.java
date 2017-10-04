@@ -1,4 +1,4 @@
-package aircraft.carrier;
+ package aircraft.carrier;
 
 import java.util.ArrayList;
 
@@ -35,7 +35,7 @@ public class Carrier {
   public void getStatus() {
     int totalDamage = 0;
     for (Aircraft a : aircrafts) {
-      totalDamage += a.actAmmo * a.baseDamage;
+      totalDamage += a.currentAmmo * a.baseDamage;
     }
     if (carrierHealth <= 0) {
       System.out.println("It's dead, Jim! :(");
@@ -43,7 +43,8 @@ public class Carrier {
       for (Aircraft a : aircrafts) {
         System.out.println(a.getStatus());
       }
-      System.out.println("HP: " + carrierHealth + ", Aircraft count: " + aircrafts.size() + ", Ammo storage: " + carrierAmmo + ", Total Damage: " + totalDamage);
+      System.out.println("HP: " + carrierHealth + ", Aircraft count: " + aircrafts.size() + ", "
+          + "Ammo storage: " + carrierAmmo + ", Total Damage: " + totalDamage);
     }
   }
 }

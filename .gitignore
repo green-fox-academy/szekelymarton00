@@ -1,3 +1,10 @@
 .DS_Store
-out/ 
-.idea
+.idea/
+out
+demo
+*.xml
+*.iml
+*.gf
+*.json
+*.class
+*.jar

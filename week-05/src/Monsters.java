@@ -1,5 +1,7 @@
-package PACKAGE_NAME;
+public class Monsters extends PositionedImage {
 
-public class Monsters {
+  public Monsters(String filename, int posX, int posY) {
+    super(filename, 0, 0);
+  }
 
 }

@@ -1,5 +1,14 @@
-package PACKAGE_NAME;
+public class Characters extends PositionedImage {
 
-public class Characters {
+  String name;
+  int characterPosx;
+  int characterPosy;
 
+
+
+  public Characters(String filename, int posX, int posY) {
+    super(filename, 0, 0);
+
+
+  }
 }

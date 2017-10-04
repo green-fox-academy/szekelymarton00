@@ -6,6 +6,7 @@ import java.io.IOException;
 
 public class PositionedImage {
 
+
   BufferedImage image;
   int posX, posY;
 

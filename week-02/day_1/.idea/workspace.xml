@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd1e96f8-cf2d-4691-a627-5afff199d33d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/day_5/src/Circle.java" afterPath="$PROJECT_DIR$/../../week-03/day_5/src/Circle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/day_5/src/Practice.java" afterPath="$PROJECT_DIR$/../../week-03/day_5/src/Practice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/day_5/src/Practice2.java" afterPath="$PROJECT_DIR$/../../week-03/day_5/src/Practice2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-03/day_5/src/Triangles.java" afterPath="$PROJECT_DIR$/../../week-03/day_5/src/Triangles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week-04/day_1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_1/day_1.iml" afterPath="$PROJECT_DIR$/../../week-04/day_1/day_1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_1/src/Animal.java" afterPath="$PROJECT_DIR$/../../week-04/day_1/src/Animal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_1/src/Counter.java" afterPath="$PROJECT_DIR$/../../week-04/day_1/src/Counter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_1/src/FleetOfThings.java" afterPath="$PROJECT_DIR$/../../week-04/day_1/src/FleetOfThings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_1/src/Sharpie.java" afterPath="$PROJECT_DIR$/../../week-04/day_1/src/Sharpie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_1/tests/SharpieTest.java" afterPath="$PROJECT_DIR$/../../week-04/day_1/tests/SharpieTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_2/src/AircraftCarrier/Aircrafts.java" afterPath="$PROJECT_DIR$/../../week-04/day_2/src/AircraftCarrier/Aircrafts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_2/src/AircraftCarrier/F16.java" afterPath="$PROJECT_DIR$/../../week-04/day_2/src/AircraftCarrier/F16.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_2/src/AircraftCarrier/F35.java" afterPath="$PROJECT_DIR$/../../week-04/day_2/src/AircraftCarrier/F35.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_2/src/Garden/Flower.java" afterPath="$PROJECT_DIR$/../../week-04/day_2/src/Garden/Flower.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_2/src/Garden/Garden.java" afterPath="$PROJECT_DIR$/../../week-04/day_2/src/Garden/Garden.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_2/src/Garden/Tree.java" afterPath="$PROJECT_DIR$/../../week-04/day_2/src/Garden/Tree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_2/src/Mentor.java" afterPath="$PROJECT_DIR$/../../week-04/day_2/src/Mentor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_2/src/PallidaClass.java" afterPath="$PROJECT_DIR$/../../week-04/day_2/src/PallidaClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_2/src/Person.java" afterPath="$PROJECT_DIR$/../../week-04/day_2/src/Person.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_2/src/Sponsor.java" afterPath="$PROJECT_DIR$/../../week-04/day_2/src/Sponsor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_2/src/Student.java" afterPath="$PROJECT_DIR$/../../week-04/day_2/src/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_3/day_3.iml" afterPath="$PROJECT_DIR$/../../week-04/day_3/day_3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_3/src/Anagram.java" afterPath="$PROJECT_DIR$/../../week-04/day_3/src/Anagram.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_3/src/CAB.java" afterPath="$PROJECT_DIR$/../../week-04/day_3/src/CAB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_3/src/CountLetters.java" afterPath="$PROJECT_DIR$/../../week-04/day_3/src/CountLetters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_3/src/Extension.java" afterPath="$PROJECT_DIR$/../../week-04/day_3/src/Extension.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_3/src/Fibonacci.java" afterPath="$PROJECT_DIR$/../../week-04/day_3/src/Fibonacci.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_3/src/Sum.java" afterPath="$PROJECT_DIR$/../../week-04/day_3/src/Sum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_3/test/AnagramTest.java" afterPath="$PROJECT_DIR$/../../week-04/day_3/test/AnagramTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_3/test/ApplesTest.java" afterPath="$PROJECT_DIR$/../../week-04/day_3/test/ApplesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_3/test/CountLettersTest.java" afterPath="$PROJECT_DIR$/../../week-04/day_3/test/CountLettersTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_3/test/ExtensionTest.java" afterPath="$PROJECT_DIR$/../../week-04/day_3/test/ExtensionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_3/test/FibonacciTest.java" afterPath="$PROJECT_DIR$/../../week-04/day_3/test/FibonacciTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week-04/day_3/test/SumTest.java" afterPath="$PROJECT_DIR$/../../week-04/day_3/test/SumTest.java" />
-    </list>
+    <list default="true" id="bd1e96f8-cf2d-4691-a627-5afff199d33d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,8 +15,8 @@
       <file leaf-file-name="GuessTheNumber.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GuessTheNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -333,12 +296,12 @@
       <workItem from="1505245126467" duration="235000" />
       <workItem from="1505311304988" duration="2072000" />
       <workItem from="1505331073906" duration="10005000" />
-      <workItem from="1506523028266" duration="819000" />
+      <workItem from="1506523028266" duration="958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30002000" />
+    <option name="totallyTimeSpent" value="30141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
@@ -364,7 +327,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39915967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -693,8 +656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GuessTheNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="150">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
           <folding />
         </state>
       </provider>

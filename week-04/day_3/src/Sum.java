@@ -1,6 +1,4 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Sum {
 //  Create a sum method in your class which has an ArrayList of Integers as parameter

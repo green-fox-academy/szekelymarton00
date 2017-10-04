@@ -1,5 +1,8 @@
-package PACKAGE_NAME;
+public class Skeleton extends Characters {
 
-public class Skeleton {
+  public Skeleton() {
+    super("skeleton.png", 0,0);
+
+  }
 
 }
