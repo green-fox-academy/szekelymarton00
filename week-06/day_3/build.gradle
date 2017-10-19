@@ -1,0 +1,23 @@
+group 'com.greenfox.szmarci'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'date.BirthdaywithLocalDate'
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'org.unitils.jodatime:unitils-jodatime:1.0.3'
+    compile 'net.sf.jopt-simple:jopt-simple:6.0-alpha-2'
+    compile "com.opencsv:opencsv:4.0"
+}
