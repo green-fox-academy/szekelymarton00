@@ -1,8 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
 public class Pirates {
 
   //  Create a Pirate class. While you can add other fields and methods, you must have these methods:-
@@ -19,19 +14,8 @@ public class Pirates {
 //
 //  Add a parrot.
   public static void main(String[] args) {
-    List<String> a = new ArrayList<>(Arrays.asList("y", "f", "g", "a", "b"));
-    List<String> b = new ArrayList<>(Arrays.asList("t", "g", "h", "c", "w"));
-    Collections.sort(a);
-    Collections.sort(b);
-    for (int i = 0; i < a.size(); i++) {
-      System.out.print(a.get(i).concat(" 1 ").toUpperCase());
-    }
-      for (int j = 0; j < b.size(); j++) {
-        System.out.print(b.get(j).concat(" 2 "));
-      }
-//  Collections.sort(a);
-//  System.out.println(a.toString() + b.toString());
-    }
 
   }
+
+}
 
