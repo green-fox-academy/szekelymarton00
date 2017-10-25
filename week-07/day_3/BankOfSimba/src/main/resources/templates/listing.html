@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Account</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<ul th:each="account, iterationStatus : ${listofaccounts}">
+  <li th:style="${account.getisKing()} ? 'color:yellow' : 'color:black' "
+      th:text="${account.name} + ' ' + ${account.balance} + ' '  + ${account.animalType} + ' ' ">
+  </li>
+
+</ul>
+
+</body>
+</html>
