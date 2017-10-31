@@ -1,5 +1,6 @@
 package com.greenfox.BankOfSimba.model;
 
+import com.greenfox.BankOfSimba.controller.ExerciseController;
 import java.text.DecimalFormat;
 
 public class BankAccount {

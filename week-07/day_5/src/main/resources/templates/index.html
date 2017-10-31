@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8" />
+  <title>Title</title>
+</head>
+<body>
+<a href="information.html">Information</a>
+<img src="/Users/Ezzo/Desktop/greenfox/szekelymarton00/week-07/day_5/src/main/resources/templates/greenfox.png" width="104" height="142" />
+<a th:text="'This is Mr. Fox. currently living on' + ' ' + ${drink} + ' ' + 'and' + ' ' +  ${food} + '.He knows 2 tricks'" />
+
+<h1>Known Tricks</h1>
+<ul>
+  <li>write HTML</li>
+  <li>code in Java</li>
+</ul>
+</body>
+</html>

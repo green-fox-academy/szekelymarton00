@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class ExerciseController {
@@ -28,7 +29,7 @@ public class ExerciseController {
   }
 
   @RequestMapping("/listing")
-  public String listing(Model model) {
+  public String listing(Model model,@RequestParam(value="action", required=true) String action) {
     List<BankAccount> listOfAccounts = new ArrayList<>();
     BankAccount zordon = new BankAccount("Zordon", 2500, "lion",false);
     BankAccount nara = new BankAccount("Nara", 3000, "lion",true);
@@ -39,6 +40,7 @@ public class ExerciseController {
     listOfAccounts.add(rafiki);
     listOfAccounts.add(king);
     model.addAttribute("listofaccounts", listOfAccounts);
+
 
     return "listing";
   }

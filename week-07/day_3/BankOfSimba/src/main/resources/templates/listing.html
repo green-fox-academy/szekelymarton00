@@ -9,6 +9,10 @@
   <li th:style="${account.getisKing()} ? 'color:yellow' : 'color:black' "
       th:text="${account.name} + ' ' + ${account.balance} + ' '  + ${account.animalType} + ' ' ">
   </li>
+  <form action="#" data-th-action="@{/action/edit}" data-th-object="${model}" method="post">
+    <button type="submit" name="action" value="save">save</button>
+    <button type="submit" name="action" value="cancel">cancel</button>
+  </form>
 
 </ul>
 
