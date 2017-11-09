@@ -17,9 +17,13 @@ public class TodoController {
   @Autowired
   TodoRepo newRepo;
 
+  @Autowired
+  AssigneeRep assigneeRepo;
+
   @RequestMapping({"/", "/list"})
   public String list(Model model) {
     model.addAttribute("list", newRepo.findAll());
+    model.addAttribute("assigneez",assigneeRepo.findAll());
     return "todo";
   }
 

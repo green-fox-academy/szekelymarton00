@@ -1,10 +1,13 @@
 package com.greenfox.connectionwithmysql;
 
 
+import java.util.ArrayList;
+import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -15,8 +18,11 @@ public class Assignee {
   @GeneratedValue(strategy = GenerationType.AUTO)
   private long id;
 
-  String name;
-  String email;
+  private String name;
+  private String email;
+
+  @OneToMany
+  List<Todo> todos = new ArrayList<>();
 
 
   public Assignee() {
